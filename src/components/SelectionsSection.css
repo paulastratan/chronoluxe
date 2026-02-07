@@ -1,0 +1,17 @@
+.selections-section{
+    display:flex;
+    flex-direction:row;
+    gap:26px;
+    padding-top:150px;
+    align-items: end;
+}
+.selections-text-content{
+    display:flex;
+    flex-direction: column;
+    gap:38px;
+}
+.selection-products-content{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+}

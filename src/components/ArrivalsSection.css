@@ -1,0 +1,18 @@
+.arrivals-section{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-top:150px;
+
+}
+.arrivals-intro{
+    display:flex;
+    flex-direction:row;
+    column-gap: 20px;
+}
+.arrivals-text{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width:30%;
+}

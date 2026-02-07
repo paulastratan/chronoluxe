@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Mapalie';
+    src: url('/fonts/Mapalie-PersonalUse.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bayon';
+    src: url('/fonts/Bayon-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    color: #0F0304;
+    background-color: white;
+}
+button{
+    padding:0;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+h1 {
+    font-size: 102px;
+    line-height: 99%;
+    margin: 0;
+}
+
+.special-h1 {
+    font-size: 102px;
+    font-family: 'Mapalie', sans-serif;
+}
+
+.red-btn {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    background: none;
+    border: none;
+    color: #6B1E23;
+    align-items: center;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 96px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.special-h2 {
+    font-size: 96px;
+    font-family: 'Mapalie', sans-serif;
+}
+h3 {
+    font-size: 78px;
+    line-height: 100%;
+    margin: 0;
+}
+
+.special-h3 {
+    font-size: 78px;
+    font-family: 'Mapalie', sans-serif;
+}
+
+.big-paragraph {
+    line-height: 1.35;
+    font-size: 28px;
+}
+.icon{
+    height:24px;
+    width: 24px;
+}
+.product-image-case{
+    width:324px;
+    height:432px;
+    background-color: #E7E7E7;
+}
+.product-image-case img{
+    width: 100%;          
+    height: 100%;          
+    object-fit: cover;
+}
+.product-case{
+    display:flex;
+    flex-direction:column;
+    gap:24px;
+}
+.product-case-description{
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+.product-case-name{
+    font-weight: 500;
+}
+.product-case-price{
+    font-weight:600;
+}
+.top-product-name{
+    font-weight: 600;
+}
+.top-product-block{
+    padding-top: 16px;
+    padding-left:16px;
+    border-left: 1px solid #000;;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.top-product-block img {
+    width: 100%;
+    height: 432px;       
+    object-fit: cover;
+}
+.footer-logo{
+   color:white;
+   font-size: 102px;
+   font-family: 'Bayon', sans-serif;
+}
+.copyright-p{
+    color:#5E484A;
+    font-size: 18px;
+}
