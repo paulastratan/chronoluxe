@@ -11,9 +11,9 @@
   },
   {
     "id": 2,
-    "name": "Tissot heritage silver",
+    "name": "Tissot SEASTAR 1000 45.5MM",
     "price": 450,
-    "image": "/images/tissot-heritage-silver.svg",
+    "image": "/images/seatissot-seastar-1000.svg",
     "gender": "Men",
     "movement": "Automatic",
     "size": "38-39mm",
@@ -141,6 +141,27 @@
   },
   {
     "id": 15,
+    "name": "Tissot vintage brown",
+    "price": 580,
+    "image": "/images/tissot-heritage-silver.svg",
+    "gender": "Unisex",
+    "movement": "Manual",
+    "size": "38-39mm",
+    "caseMaterial": "Stainless steel"
+  },
+    {
+    "id": 16,
+    "name": "Tissot vintage brown",
+    "price": 580,
+    "image": "/images/tissot-heritage-silver.svg",
+    "gender": "Unisex",
+    "movement": "Manual",
+    "size": "38-39mm",
+    "caseMaterial": "Stainless steel"
+  }
+  ,
+    {
+    "id": 17,
     "name": "Tissot vintage brown",
     "price": 580,
     "image": "/images/tissot-heritage-silver.svg",

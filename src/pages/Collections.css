@@ -13,22 +13,25 @@
 }
 
 .search-bar {
-    max-width: 600px;
+    max-width: 364px;
     margin: 0 auto;
     position: relative;
 }
 
 .search-bar input {
     width: 100%;
-    padding: 18px 50px 18px 24px;
-    border: 1px solid #ccc;
+    border:none;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #000000;
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
+    background-color: white;
+    color:black
 }
 
 .search-bar input:focus {
     outline: none;
-    border-color: #0F0304;
+    border-color: #000000;
 }
 
 .search-bar img {
@@ -106,6 +109,7 @@
     border: none;
     cursor: pointer;
     font-family: 'DM Sans', sans-serif;
+    border-radius: 0;
 }
 
 .clear-btn {
